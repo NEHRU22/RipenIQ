@@ -17,11 +17,11 @@ CLASS_NAMES = [
 
 BANANA_INFO = {
     "overripe": {
-        "shelf_life": "1 day",
-        "recommendation": "Consume today or feed to any animal"
+        "shelf_life": "1-2 day",
+        "recommendation": "Consume today or tommorow or feed to any animal"
     },
     "ripe": {
-        "shelf_life": "2-3 days",
+        "shelf_life": "3-4 days",
         "recommendation": "Best time to consume"
     },
     "rotten": {
