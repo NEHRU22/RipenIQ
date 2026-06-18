@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial, sans-serif;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:
+    linear-gradient(
+        135deg,
+        #f9d423,
+        #ffb347
+    );
+}
+
+.container{
+
+    width:550px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.2);
+
+    text-align:center;
+}
+
+h1{
+
+    margin-bottom:10px;
+}
+
+.subtitle{
+
+    color:#666;
+    margin-bottom:20px;
+}
+
+.upload-box{
+
+    border:2px dashed #ff9800;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    margin-bottom:20px;
+}
+
+#preview{
+
+    width:250px;
+
+    display:none;
+
+    margin:20px auto;
+
+    border-radius:12px;
+}
+
+button{
+
+    background:#ff9800;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 24px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+}
+
+button:hover{
+
+    background:#f57c00;
+}
+
+.result-card{
+
+    margin-top:20px;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    background:#fff8e1;
+
+    text-align:left;
+}
+
+.progress{
+
+    width:100%;
+
+    height:20px;
+
+    background:#ddd;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+    margin-top:10px;
+}
+
+.progress-bar{
+
+    height:100%;
+
+    background:#ff9800;
+}
+.note{
+    color:#777;
+    font-size:14px;
+    margin-top:10px;
+}

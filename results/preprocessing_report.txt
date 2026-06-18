@@ -1,0 +1,16 @@
+
+Banalyzer AI
+
+Image Size: 224x224
+
+Batch Size: 32
+
+Augmentation:
+- Rotation 20°
+- Zoom 20%
+- Horizontal Flip
+- Width Shift 20%
+- Height Shift 20%
+
+Normalization:
+- Rescale 1/255

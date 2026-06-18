@@ -1,0 +1,14 @@
+
+Banalyzer AI Dataset Report
+
+Classes:
+- overripe
+- ripe
+- rotten
+- unripe
+
+Training Images: 1000
+Testing Images: 200
+
+Source:
+Banalyzer Banana Ripeness Classification Dataset

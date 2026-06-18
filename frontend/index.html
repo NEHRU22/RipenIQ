@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RipenIQ</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🍌 RipenIQ</h1>
+
+    <p class="subtitle">
+        Banana Ripeness & Shelf-Life Estimator
+    </p>
+
+    <div class="upload-box">
+
+        <input
+            type="file"
+            id="imageInput"
+            accept=".jpg,.jpeg,.png"
+        >
+
+    </div>
+
+    <img
+        id="preview"
+        src=""
+        alt=""
+    >
+
+    <button id="predictBtn">
+        Analyze Banana
+    </button>
+
+    <div id="result"></div>
+
+</div>
+<p class="note">
+Supported Formats: JPG, JPEG, PNG only
+</p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
