@@ -1,8 +1,10 @@
+import os
 import tensorflow as tf
 import numpy as np
 from PIL import Image
 
-MODEL_PATH = "/content/drive/MyDrive/BanalyzerAI/models/banana_model.keras"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "banana_model.keras")
 
 model = tf.keras.models.load_model(MODEL_PATH)
 
