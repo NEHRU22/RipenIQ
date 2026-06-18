@@ -1,4 +1,4 @@
-const API_URL = "https://canteen-chapter-chosen.ngrok-free.dev";
+const API_URL = "https://ripeniq.onrender.com";
 
 const imageInput = document.getElementById("imageInput");
 const preview = document.getElementById("preview");
